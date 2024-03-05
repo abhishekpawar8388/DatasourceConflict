@@ -44,12 +44,12 @@
     <Column id="1" name="col1">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="40"/>
+        <Picture id="157" valUnicode="30"/>
         <StoredAs id="173" val="1"/>
-        <Size id="174" val="40"/>
+        <Size id="174" val="30"/>
         <Definition id="175" val="2"/>
         <_Flip id="194"/>
-        <_FieldPhysical PIC_U="40" Size="40" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="1" translate="1"/>
+        <_FieldPhysical PIC_U="30" Size="30" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="1" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="2" name="col2">
