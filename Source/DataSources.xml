@@ -8,15 +8,15 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="1"/>
+  <LastIsn val="2"/>
 
-  <LastIsnFolder val="1"/>
+  <LastIsnFolder val="2"/>
 
 </Header>
 
 <DataRepositoryProperties/>
  <DataSourceRepository>
-  <DataObjects>
+  <DataObjects>
  
 <DataObject PhysicalName="test1" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" name="test1">
 
@@ -37,7 +37,6 @@
   <PositionIndex val="-1"/>
 
   <IndexesLastIsn val="1"/>
-
   <MetaTreeRTIndex val="-1"/>
 
   <Columns>
