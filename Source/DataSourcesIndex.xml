@@ -5,7 +5,7 @@
     <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="2"/>
+    <LastIsn val="3"/>
     <LastIsnFolder val="2"/>
   </Header>
 
@@ -13,10 +13,11 @@
 
   <DataSourceRepository>
     <DataObjects>
-      <DataObject PhysicalName="test1" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" length="1921" name="test1" offset="245"/>
+      <DataObject PhysicalName="test1" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" length="1924" name="test1" offset="245"/>
+      <DataObject PhysicalName="test2" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="3" length="2122" name="test2" offset="2170"/>
     </DataObjects>
   </DataSourceRepository>
 
-  <LastModified val="3109244792961061"/>
+  <LastModified val="31092452-19775453"/>
 
 </Application>
