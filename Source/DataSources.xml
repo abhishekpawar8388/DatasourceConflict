@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="3"/>
+  <LastIsn val="4"/>
 
   <LastIsnFolder val="2"/>
 
@@ -161,6 +161,62 @@
       </Segments>
     </Index>
   </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="test3" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="4" name="test3">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="test1">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="60"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="60"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="test1"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="test1" PIC_U="60" Size="60" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="test2">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="60"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="60"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="test2"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="test2" PIC_U="60" Size="60" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes/>
 
   <ForeignKeys/>
 
