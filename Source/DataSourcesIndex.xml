@@ -1,29 +1,26 @@
- <Application>
- 
-<Header>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
 
-  <Version val="14090.00"/>
+  <Header>
+    <Version val="14090.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="8"/>
+    <LastIsnFolder val="2"/>
+  </Header>
 
-  <WithIsn val="Y"/>
+  <DataRepositoryProperties/>
 
-  <Exe comp="-1"/>
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject PhysicalName="test1" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" length="1924" name="test1" offset="245"/>
+      <DataObject PhysicalName="test2" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="3" length="2122" name="test2" offset="2170"/>
+      <DataObject PhysicalName="test3" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="4" length="1614" name="test3" offset="4293"/>
+      <DataObject PhysicalName="test4" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="5" length="485" name="test4" offset="5908"/>
+      <DataObject PhysicalName="test5" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="8" length="1596" name="test5" offset="6394"/>
+    </DataObjects>
+  </DataSourceRepository>
 
-  <LastIsn val="9"/>
+  <LastModified val="3109245639054277"/>
 
-  <LastIsnFolder val="2"/>
-
-</Header>
-
-<DataRepositoryProperties/>
- <DataSourceRepository>
-  <DataObjects>
- 
- 
-<DataObject PhysicalName="test1" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" name="test1" offset="228" length="1921"/> 
-<DataObject PhysicalName="test2" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="3" name="test2" offset="2150" length="2045"/> 
-<DataObject PhysicalName="test3" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="4" name="test3" offset="4196" length="1558"/> 
-<DataObject PhysicalName="test4" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="5" name="test4" offset="5755" length="454"/> 
-<DataObject PhysicalName="test5" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="8" name="test5" offset="6210" length="1540"/> 
-<DataObject PhysicalName="test6" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="9" name="test6" offset="7751" length="1532"/>  </DataObjects>
- </DataSourceRepository>
- <LastModified val="31092624-71381627"/>  </Application>
+</Application>
